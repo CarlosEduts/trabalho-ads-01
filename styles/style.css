@@ -4,6 +4,12 @@ body {
   padding: 20px;
 }
 
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 h1 {
   color: #285e79;
   text-align: center;
@@ -48,4 +54,12 @@ a {
 
 a:hover {
   color: #003cff;
+}
+
+button {
+  background-color: #008fee;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.4rem;
 }
